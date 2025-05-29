@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Inventra — Smart Inventory Management System
 
-## Getting Started
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-⚡-green?style=for-the-badge&logo=fastapi)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge&logo=jsonwebtokens)
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js Badge"/>
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native Badge"/>
+![Status](https://img.shields.io/badge/Build-In_Progress-yellow?style=for-the-badge&logo=githubactions)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge&logo=vercel)
+![Render](https://img.shields.io/badge/API-Render-3f3fff?style=for-the-badge&logo=render)
+![Expo](https://img.shields.io/badge/Mobile-Expo-000020?style=for-the-badge&logo=expo)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📦 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Inventra** is a modern inventory management system built with 💚 FastAPI and secured using JWT. Designed for small-to-mid shops, it offers full-featured web & mobile apps (React Native + Next.js) for managing stock, tracking logs, and analyzing reports with Pandas.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### ✨ Features
+- 🔐 JWT Authentication & RBAC (Admin/Staff)
+- 📋 Inventory CRUD with expiry & units
+- 📈 Reports: Top-used items, trends, restock frequency
+- 📁 Excel/CSV upload & download support
+- 📊 PDF & Excel report generation (via Pandas + OpenPyXL)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🧠 Tech Stack
+- **Backend**: FastAPI + MongoDB Atlas + JWT Auth
+- **Frontend**: React Native (Expo) & Next.js 15 (App Router)
+- **Data Science**: Pandas, NumPy for analytics
+- **Deployment**: Render (API), Expo Go (Mobile), Vercel(Web)
 
-## Learn More
+> 💡 Currently under development — follow along in the `dev` branch!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
